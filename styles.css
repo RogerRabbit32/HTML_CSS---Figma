@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+.flex {
+    display: flex;
+}
+
 #main-picture {
     width: 100vw;
     height: 467px;
