@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    src: url("fonts/Inter-Regular.ttf");
+    font-family: Inter;
+}
+
+@font-face {
+    src: url("fonts/Inter-Bold.ttf");
+    font-family: Inter-Bold;
+}
 
 .flex {
     display: flex;
@@ -12,4 +21,8 @@
 #main-picture {
     width: 100vw;
     height: 467px;
+}
+
+.inter {
+    font-family: Inter-Bold, Helvetica, Arial, sans-serif;
 }
